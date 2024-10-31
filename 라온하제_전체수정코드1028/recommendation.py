@@ -188,6 +188,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from fuzzywuzzy import process
 import pandas as pd
 import re  # 정규식을 사용하기 위해 추가
+from sklearn.feature_extraction.text import TfidfVectorizer
+
 
 # CSV 파일 로드
 df = pd.read_csv("서울시 사회복지시설 병합.csv", encoding='utf-8')
