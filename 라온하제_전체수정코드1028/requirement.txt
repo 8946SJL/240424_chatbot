@@ -2,3 +2,4 @@ streamlit==1.25.0  # Streamlit 사용 시 필요
 pandas  # 데이터 관리용
 mysql-connector-python  # MySQL 연결용
 pymongo  # MongoDB 사용 시 필요
+scikit-learn  # 머신러닝 모델 사용 시 필요
